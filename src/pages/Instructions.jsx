@@ -22,7 +22,7 @@ export default function Instructions() {
               <li key={index}>{step}</li>
             ))}
           </ol>
-        </div>
+        </div> 
 
         
         <div className="bg-blue-900 text-white rounded-lg shadow-md h-64 flex items-center justify-center">
