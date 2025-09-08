@@ -27,7 +27,7 @@ export default function About() {
           {team.map((member, i) => (
             <article
               key={i}
-              className="bg-white border border-emerald-100 rounded-xl shadow-sm p-2 flex items-center gap-5"
+              className="grid bg-white border border-emerald-100 rounded-xl shadow-sm p-2 flex items-center gap-5"
             >
               <img
                 src={member.img}
